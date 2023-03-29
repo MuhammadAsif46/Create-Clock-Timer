@@ -1,12 +1,25 @@
-h1 {
-    text-align: center;
-    color: #000;
-    font-weight: bold;
+body{
+    background-color: #A2A3B9;
 }
+h1{
+    text-align: center;
+    font-size: 49px;
+    color: #CEE;
+}
+.clock{
+    border: 1px solid black;
+    margin: 70px 485px 0px 470px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 40px;
+    padding: 18px 0px 37px 36px;
+    background-color: #52484c;
+}
+.year{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    margin: -36px 0px 0px 512px;
+    word-spacing: 5px;
 
-.container {
-    display: flex;
-    justify-content: center;
-    font-size: 45px;
-    margin-top: 60px;
 }
